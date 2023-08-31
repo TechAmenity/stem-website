@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    display: flex;
+    color:green;
+    background-color:black;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 150mm;
+    font-size: 3.5mm;
+    margin-left: 16%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: url("R.jpg");
+    height: 120mm;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imageholder{
+    text-align: center;
+    margin-top: 20mm;
+    font-size:7.2mm;
+}
+.imageholder b{
+ color: green;
+}
+.imageholder button{
+    height: 10mm;
+    width:30mm;
+    border-radius: 4mm;
+    background-color: green;
+    border: 0;
+    padding-top:-25mm
+}
+.welcome-banner{
+    text-align: center;
+    justify-content: center;
+    display: flex;;
+    justify-content: center;
+}
+.welcome-banner b{
+    color: green;
+}
+.welcome-banner-holder{
+    width:200mm;
+    height: 75mm;
+    background-color: rgb(238, 238, 238);
+    border: 0;
+    border-radius: 5mm;
+    box-shadow: 1px 1px 1px rgb(190, 190, 190);
+    margin-top: -7mm;
+}
+.type-of-stem{
+    justify-content: center;
+    text-align: center;
+    height: 80mm;
+    background-color: rgb(238, 238, 238);
+    margin-top: 7mm;
+    border: 0;
+    border-radius: 3mm;
+}
+.type-of-stem-holder{
+    justify-content: center;
+    display: flex;
+    gap:1cm
+}
+.flexed-boxes{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-top: 5mm;
+    gap: 0.5cm;
+}
+.flexed-box{
+    height:50mm;
+    width: 55mm;
+    border: 0;
+    border-radius: 4mm;
+    background-color: white;
+    box-shadow: 1px 1px 1px rgb(190, 190, 190);
+    text-align: center;
+}
+.scratch{
+    display: flex;
+    justify-content: center;
+}
+.scratch-holder{
+    display: flex;
+    justify-content: center;
+    width:300mm;
+    background-color: rgb(248, 248, 248);
+    border-radius: 5mm;
+}
+.course{
+    height: 60mm;
+    width: 60mm;
+    border-radius: 5mm;
+    border: 0;
+    margin-top: 5mm;
+    display: block;
+    text-align: center;
+}
+.course-id{
+    height: 20m;
+    width: 170mm;
+    background-color: rgb(238, 238, 238);
+    border-radius: 4mm;
+    margin-top: 5mm;
+}
+.flexed-box img{
+    height: 40mm;
+    width: 40mm;
+    margin-top: 2mm;
+}
+.course img{
+    height: 35mm;
+    width: 40mm;
+    border-radius: 3mm;
+}
+#goodness-tobi{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+#design{
+margin-left: 3%;
+margin-right: 3%;
+}
+.course button{
+    height: 10mm;
+    width: 25mm;
+    background-color: grey;
+    border: 0;
+}
